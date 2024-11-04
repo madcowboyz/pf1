@@ -1,0 +1,165 @@
+footer {  
+  background-color: #eee;
+  border-top: 1px solid #b1b1b1;
+}
+footer .wrap {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto;
+  padding-bottom: 60px;
+  width: auto;
+  padding-left: calc((100% - 1440px) / 2);
+  padding-right: calc((100% - 1440px) / 2);
+  align-items: center;
+}
+footer .wrap h1 {  
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer .wrap h1 > a {
+  
+  margin-right: 16px;
+  font-weight: bold;
+}
+footer .wrap h2 {  
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 0;
+  width: 136px;
+  background: url(../img/png/logo_kosdaq.png);
+  background-size: cover;
+  height: 11px;
+}
+footer .wrap .fnb {  
+  display: flex;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color: white;
+  border-bottom: 1px solid;
+  position: relative;
+}
+footer .wrap .fnb::after{
+  content:"";
+  display: block;
+  width: calc(100vw - 17px);
+  border-bottom: 1px solid #b1b1b1;
+  position: absolute;
+  bottom: -1px;
+  left: calc((100vw - 17px - 1440px) / -2);
+  height: 100%;
+  background-color: white;
+}
+footer .wrap .fnb li {  
+  z-index: 1;
+}
+footer .wrap .fnb li > a {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: bold;
+}
+footer .wrap .fnb li:nth-child(1) > a{  
+  color: #4567ad;
+}
+footer .wrap .sns {  
+  display: flex;
+  grid-column: 3;
+  grid-row: 1;
+  justify-content: end;
+  z-index: 1;
+  gap: 3%;
+  align-items: center;
+}
+footer .wrap .sns li {
+  
+}
+footer .wrap .sns li > a {  
+  height: 32px;
+  display: flex;
+  align-items: center;
+  font-size: 0;
+  width: 32px;
+  background-image: url(../img/png/ico_spr.png);
+  background-position: -51px -13.6px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+footer .wrap .sns li:nth-child(2) a{  
+  background-position: -93px -13.5px;
+}
+footer .wrap .sns li:nth-child(3) a{  
+  background-position-x: calc(-270px / 2);
+}
+footer .wrap .sns li:nth-child(4) a{
+  background-position-x: calc(-355px / 2);
+}
+footer .wrap .sns li:nth-child(5) a{
+  background-position-x: calc(-439px / 2);
+}
+footer .wrap .sns li:nth-child(6) a{
+  background-position-x: calc(-523px / 2);
+}
+footer .wrap address {  
+  grid-column: 1 / span 3;
+  grid-row: 3;
+  font-style: normal;
+  line-height: 2;
+}
+footer .wrap address span {
+  
+}
+footer .wrap .email {  
+  grid-column: 3;
+  grid-row: 3 / span 2;
+  justify-self: end;
+}
+footer .wrap .email li {  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+footer .wrap .email li > a {
+  
+}
+footer .wrap .money {  
+  grid-column: 1 / span 2;
+  grid-row: 4;
+}
+footer .wrap .award {  
+  grid-column: 1 / span 3;
+  grid-row: 5;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+footer .wrap .award li {
+  
+}
+footer .wrap .award li > a {  
+  width: 190px;
+  height: 60px;
+  background: url(../img/jpg/btn_award.jpg);
+  background-position-x: -4px;
+}
+footer .wrap .award li:nth-child(2) > a {  
+  background-position-x: -205px;
+}
+footer .wrap .award li:nth-child(3) > a {  
+  background-position-x: -405px;
+}
+footer .wrap .award li:nth-child(4) > a {  
+  background-position-x: -605px;
+}
+footer .wrap .award li:nth-child(5) > a {  
+  background-position-x: -805px;
+}
+footer .wrap .award li:nth-child(6) > a {  
+  background-position-x: -1005px;
+}
+footer .wrap p {  
+  grid-column: 1 / span 3;
+  grid-row: 6;
+}

@@ -1,0 +1,25 @@
+#news {
+  a: a;
+}
+#news .wrap {
+  a: a;
+}
+#news .wrap h2 {
+  a: a;
+}
+#news .wrap h3 {
+  a: a;
+}
+#news .wrap > a {
+  a: a;
+}
+#news .wrap ul {
+  a: a;
+}
+#news .wrap ul li {
+  a: a;
+}
+#news .wrap ul li a {
+  a: a;
+  timea: a;
+}
